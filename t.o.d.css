@@ -1,0 +1,55 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.thediv{
+    min-height:100%;
+    min-width:100%;
+}
+.clean-mtop-mbot{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-white{
+    background-color: white;
+}
+.h-full{
+    height: 100%;
+}
+.w-half{
+    width: 50%;
+}
+#right-end{
+    display: flex;
+    justify-content: flex-end;
+}
+.clean-padding{
+    padding: 0px;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h-700px{
+    height: 700px
+}
+#font{
+    font: bold;
+    color: white;
+    font-size: 200px;
+}
+#font2{
+    font: bold;
+    color: black;
+    font-size: 200px;
+}
+#div1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
