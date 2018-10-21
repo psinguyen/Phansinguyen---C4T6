@@ -1,0 +1,207 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+#return-right{
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+a {
+    text-decoration: none !important;
+}
+#font1{
+    background-color: #fff;
+}
+
+.thediv{
+     min-height:100%;
+    min-width:100%; 
+}
+.clean-mtop-mbot{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+}
+.bg-black{
+    background-color:black;
+}
+.bg-white{
+    background-color: white;
+}
+.h-full{
+    height: 100%;
+}
+.w-half{
+    width: 50%;
+}
+#right-end{
+    display: flex;
+    justify-content: flex-end;
+}
+.clean-padding{
+    padding: 0px;
+}
+.middle{
+     display:grid; 
+    justify-content:top ; 
+     align-items: top; 
+}
+.middle2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h-700px{
+    height: 700px
+}
+#font{
+    font: x-large;
+    font-size: 30px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.white-truth{
+    color: white;
+}
+.black-dare{
+    color: black;
+}
+
+
+
+#font2{
+    font: larger;
+    color: black;
+    font-size: 37px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+#div1{
+    background-image: url('http://kevingreenwired.com/wp-content/uploads/2015/09/question.jpg');
+    height: 5%;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: unset;
+
+
+ 
+}
+ #reset{
+    color:blue ;
+    
+  }
+.trangchu{
+    text-align : right;
+    font-size: 10px;
+    
+  
+    
+}
+    
+
+ h2{
+    text-align: center;
+    color: red;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-shadow: .04em .04em 0 #fff,.08em .08em 0 rgb(40, 20, 212);
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTncOyV1p83Iky_e43xJmARcrRJV79Un8JanI7vShlI6GL0HlnU');
+    background-repeat:no-repeat;
+     */
+     
+    
+}
+.h1-1{
+    font-family: 'Gloria Hallelujah', cursive;
+    color: yellow;
+    text-shadow: .04em .04em 0 #fff,.08em .08em 0 rgb(40, 20, 212);
+    
+  
+
+    
+}
+h1{
+    font-family: 'Gloria Hallelujah', cursive;
+    color: red;
+    text-align: center;
+}
+p {
+  font-family: Rancho;
+  font-size: 60px;
+  margin: 40px ;
+  text-align: center;
+}
+.clean-mtop-mbot {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    
+     /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .12em; /* Adjust as needed */
+    text-align: center;
+    animation: 
+      typing 2.4s steps(40, end),
+      blink-caret .50s step-end infinite;
+    
+    
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  /* @keyframes blink-caret {
+    from, to { border-color: transparent }
+    10% { border-color: orange; }
+  } */
+  .clean-mtop-mbot {
+    text-shadow: .04em .04em 0 #fff,.08em .08em 0 rgb(40, 20, 212);
+    -webkit-text-shadow: .04em .04em 0 #fff, .08em .08em 0 #aaa;
+  }
+  
+  
+
+.container {
+  text-align: center;
+}
+.button-5 {
+    width: 315px;
+    border-radius: 5px;
+    background-color: #F4F200;
+    background-image: #F4F200;
+    background-image: -moz-linear-gradient(top, #fff 0%, #F4F200 100%); 
+    background-image: -webkit-linear-gradient(top, #fff 0%,#F4F200 100%); 
+    background-image: linear-gradient(to bottom, #fff 0%,#F4F200 100%); 
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 400ms ease-in-out;
+    transition: background 400ms ease-in-out;
+  }
+.button-5:hover {
+    background-position: -2000%;
+    transition: background 300ms ease-in-out;
+  }
+  .button-5-1 {
+    width: 315px;
+    height:45px ;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: #F4F200;
+    background-image: #F4F200;
+    background-image: -moz-linear-gradient(top, #fff 0%, #F4F200 100%); 
+    background-image: -webkit-linear-gradient(top, #fff 0%,#F4F200 100%); 
+    background-image: linear-gradient(to bottom, #fff 0%,#F4F200 100%); 
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 400ms ease-in-out;
+    transition: background 400ms ease-in-out;
+  }
+  .button-5-1:hover {
+    background-position: -2000%;
+    transition: background 300ms ease-in-out;
+  }
